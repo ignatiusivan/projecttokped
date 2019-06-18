@@ -1,0 +1,66 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AvailableHapticFeedback (1.0.0)
+  - libwebp (1.0.2):
+    - libwebp/core (= 1.0.2)
+    - libwebp/dec (= 1.0.2)
+    - libwebp/demux (= 1.0.2)
+    - libwebp/dsp (= 1.0.2)
+    - libwebp/enc (= 1.0.2)
+    - libwebp/mux (= 1.0.2)
+    - libwebp/utils (= 1.0.2)
+    - libwebp/webp (= 1.0.2)
+  - libwebp/core (1.0.2):
+    - libwebp/webp
+  - libwebp/dec (1.0.2):
+    - libwebp/core
+  - libwebp/demux (1.0.2):
+    - libwebp/core
+  - libwebp/dsp (1.0.2):
+    - libwebp/core
+  - libwebp/enc (1.0.2):
+    - libwebp/core
+  - libwebp/mux (1.0.2):
+    - libwebp/core
+  - libwebp/utils (1.0.2):
+    - libwebp/core
+  - libwebp/webp (1.0.2)
+  - MiniLayout (1.4.1)
+  - MultiSlider (1.9.3):
+    - AvailableHapticFeedback
+    - MiniLayout
+  - SDWebImage/Core (4.4.7)
+  - SDWebImage/WebP (4.4.7):
+    - libwebp (< 2.0, >= 0.5)
+    - SDWebImage/Core
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - MiniLayout
+  - MultiSlider
+  - SDWebImage/WebP
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AvailableHapticFeedback
+    - libwebp
+    - MiniLayout
+    - MultiSlider
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AvailableHapticFeedback: dbd483684e693281b85e671d95ac3593dfbad34f
+  libwebp: b068a3bd7c45f7460f6715be7bed1a18fd5d6b48
+  MiniLayout: bd42e3763700c3002f39ff3b36dc8a027ea5078a
+  MultiSlider: 833e67dce51206bf93e43b3cab7b334a6f6430c8
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: ab9a8ab9d4a7b1e5cd28f25cd106802d21bc15ec
+
+COCOAPODS: 1.6.1
